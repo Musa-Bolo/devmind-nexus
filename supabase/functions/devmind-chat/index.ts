@@ -57,7 +57,7 @@ Be concise, accurate, and professional. Use technical terminology appropriately.
           messages: [
             {
               role: "user",
-              content: `Create a professional technical diagram or illustration: ${message}. Style: modern, clean, tech-focused, developer-friendly.`
+              content: `Create a vibrant, colorful illustration: ${message}. Style: playful, dynamic, animated feel, modern and fun.`
             }
           ],
           modalities: ["image", "text"]
