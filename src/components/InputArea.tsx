@@ -51,11 +51,11 @@ export const InputArea = ({ onSend, disabled, mode }: InputAreaProps) => {
   const getPlaceholder = () => {
     switch (mode) {
       case "code":
-        return "Describe what code you need...";
+        return "What awesome code should I write? 💻";
       case "image":
-        return "Describe the image you want to generate...";
+        return "Describe something cool to visualize! 🎨";
       default:
-        return "Ask me anything...";
+        return "What's on your mind? 💭";
     }
   };
 
@@ -91,7 +91,7 @@ export const InputArea = ({ onSend, disabled, mode }: InputAreaProps) => {
             onClick={handleSend}
             disabled={disabled || !input.trim()}
             size="icon"
-            className="h-[60px] w-[60px] bg-gradient-to-br from-primary to-secondary hover:shadow-glow transition-all"
+            className="h-[60px] w-[60px] bg-gradient-to-br from-primary to-secondary hover:shadow-glow hover:scale-110 transition-all duration-300"
           >
             <Send className="h-5 w-5" />
           </Button>

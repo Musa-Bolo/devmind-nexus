@@ -22,13 +22,13 @@ export const ModeSelector = ({ mode, onModeChange }: ModeSelectorProps) => {
           variant={mode === value ? "default" : "ghost"}
           size="sm"
           onClick={() => onModeChange(value)}
-          className={`gap-2 ${
+          className={`gap-2 transition-all duration-300 ${
             mode === value
-              ? "bg-gradient-to-r from-primary to-secondary text-background shadow-glow"
-              : "hover:bg-card"
+              ? "bg-gradient-to-r from-primary to-secondary text-background shadow-glow scale-105"
+              : "hover:bg-card hover:scale-105"
           }`}
         >
-          <Icon className="h-4 w-4" />
+          <Icon className={`h-4 w-4 ${mode === value ? "animate-bounce" : ""}`} />
           {label}
         </Button>
       ))}

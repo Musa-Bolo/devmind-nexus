@@ -2,6 +2,7 @@ import { useState } from "react";
 import { MessageBubble } from "./MessageBubble";
 import { InputArea } from "./InputArea";
 import { ModeSelector } from "./ModeSelector";
+import { ImageLoadingAnimation } from "./ImageLoadingAnimation";
 import { useToast } from "@/hooks/use-toast";
 
 export type MessageRole = "user" | "assistant";
@@ -21,7 +22,7 @@ export const ChatInterface = () => {
     {
       id: "welcome",
       role: "assistant",
-      content: "Hello! I'm DevMind, your AI coding assistant. I can help you with:\n\n• **Text Generation** - Explanations, documentation, technical writing\n• **Code Generation** - Python, JavaScript, C++, Java, PHP, HTML, CSS and more\n• **Image Generation** - Diagrams, illustrations, and visual content\n\nSelect a mode below and let's build something amazing!",
+      content: "Hey there! 👋 I'm DevMind, your fun AI coding buddy! I can help you with:\n\n• **Text Generation** ✍️ - Docs, explanations, all the words\n• **Code Generation** 💻 - Python, JS, C++, Java, PHP, HTML, CSS & more\n• **Image Generation** 🎨 - Cool diagrams, illustrations, visuals\n\nPick a mode and let's create something awesome! 🚀",
       mode: "text"
     }
   ]);
@@ -114,13 +115,16 @@ export const ChatInterface = () => {
           {messages.map((message) => (
             <MessageBubble key={message.id} message={message} />
           ))}
-          {isLoading && (
-            <div className="flex justify-start mb-4">
+          {isLoading && mode === "image" && (
+            <ImageLoadingAnimation />
+          )}
+          {isLoading && mode !== "image" && (
+            <div className="flex justify-start mb-4 animate-fade-in">
               <div className="bg-card border border-border rounded-2xl px-4 py-3 max-w-[80%]">
                 <div className="flex gap-2">
-                  <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                  <div className="w-2 h-2 rounded-full bg-secondary animate-pulse delay-100" />
-                  <div className="w-2 h-2 rounded-full bg-accent animate-pulse delay-200" />
+                  <div className="w-2 h-2 rounded-full bg-primary animate-bounce" style={{ animationDelay: "0s" }} />
+                  <div className="w-2 h-2 rounded-full bg-secondary animate-bounce" style={{ animationDelay: "0.1s" }} />
+                  <div className="w-2 h-2 rounded-full bg-accent animate-bounce" style={{ animationDelay: "0.2s" }} />
                 </div>
               </div>
             </div>
