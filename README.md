@@ -54,7 +54,7 @@ A comprehensive data-driven analysis project examining gender disparities and bi
 I'm always open to discussing new projects, innovative ideas, or collaboration opportunities!
 
 - **Email:** bolomusa40@gmail.com or musa.bolo@capacit.org.za
-- **LinkedIn:** [](https://www.linkedin.com/in/musa-bolo-033718211/)
+- **LinkedIn:** (https://www.linkedin.com/in/musa-bolo-033718211/)
 ---
 
 ⭐️ Feel free to explore my projects and reach out for collaboration opportunities!
