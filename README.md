@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# Hi there! 👋 I'm Musa Bolo
 
-## Project info
+I'm a Software/Web Developer with a background in ICT Networking, having recently completed my studies. I'm passionate about building intelligent applications that bridge the gap between traditional software development and cutting-edge AI technologies. My work combines my networking foundation with modern web development and machine learning to create innovative, practical solutions.
 
-**URL**: https://lovable.dev/projects/25cce95c-2316-4a55-bb30-80f0ad39c9ce
+---
 
-## How can I edit this code?
+## 💼 My Projects
 
-There are several ways of editing your application.
+### 🤖 ML/DL Knowledge Chatbot
+An intelligent chatbot specifically designed to answer questions about Machine Learning and Deep Learning concepts. This project serves as an educational assistant that helps users understand complex ML/DL algorithms, neural network architectures, and best practices through natural conversation. The chatbot can explain topics ranging from basic concepts like supervised learning to advanced topics like transformer models and reinforcement learning. It's built to provide clear, accurate explanations that make machine learning more accessible to learners at all levels.
 
-**Use Lovable**
+**[View Project](https://ai-concept-bot.zapier.app/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/25cce95c-2316-4a55-bb30-80f0ad39c9ce) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### ✨ AI Content Generator
+A powerful multi-purpose content generation platform that leverages state-of-the-art AI models to create diverse types of content. This tool can generate high-quality written content for blogs, articles, and marketing materials, write functional code snippets in multiple programming languages, and create unique images based on text descriptions. The platform features an intuitive interface that makes it easy for both technical and non-technical users to harness the power of generative AI. Whether you need creative writing, technical documentation, programming solutions, or visual content, this generator delivers professional results in seconds.
 
-**Use your preferred IDE**
+**[View Project](https://devmind-nexus.lovable.app/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📄 AI Resume Generator
+A smart resume builder that revolutionizes the job application process with an integrated AI assistant. This application guides users through creating professional, ATS-friendly resumes by providing intelligent suggestions for content, formatting, and keyword optimization. The AI assistant analyzes your experience and skills to craft compelling bullet points, suggests industry-specific keywords, and ensures your resume is optimized for Applicant Tracking Systems. It also offers multiple professional templates and real-time feedback to help users present their qualifications in the best possible light, significantly improving their chances of landing interviews.
 
-Follow these steps:
+**[View Project](https://resume-ai-dd8eb48e.base44.app/login?from_url=https%3A%2F%2Fresume-ai-dd8eb48e.base44.app%2Fresumebuilder)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📊 Sentiment Analysis Dashboard
+An interactive, real-time dashboard for analyzing and visualizing sentiment patterns in textual data across various sources. This project processes large volumes of text to identify emotional tones, opinions, and attitudes expressed in the content. The dashboard features dynamic visualizations including sentiment trend graphs, word clouds, and emotion distribution charts that update in real-time. Users can track sentiment changes over time, compare sentiment across different data sources, and identify key topics driving positive or negative reactions. It's an invaluable tool for businesses monitoring brand perception, social media managers tracking campaign performance, or researchers analyzing public opinion.
 
-# Step 3: Install the necessary dependencies.
-npm i
+**[View Project](https://senti-score-hub.lovable.app/)**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+### ⚖️ Workplace Bias Audit Report
+A comprehensive data-driven analysis project examining gender disparities and biases within workplace environments. Using Python and advanced data science libraries on Google Colab, this audit systematically identifies and quantifies various forms of bias between men and women in areas such as hiring, promotions, compensation, and performance evaluations. The analysis employs statistical methods and machine learning techniques to uncover hidden patterns of discrimination that might not be immediately apparent. The project includes detailed visualizations, statistical significance tests, and actionable recommendations for organizations to address identified biases. This work contributes to the important conversation about workplace equality and provides data-backed insights for creating more inclusive work environments.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**[View Project](https://colab.research.google.com/drive/1XsJIFHd2kqc8-18VH7CH8SqFX8q_qpGP?usp=sharing)**
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Technical Skills
+**Languages:** Python, JavaScript, HTML/CSS, SQL  
+**Web Development:** React, Node.js, Express, RESTful APIs  
+**ML/AI:** TensorFlow, PyTorch, NLP  
+**Networking:** TCP/IP, Network Security, Cloud Infrastructure  
+**Tools:** Git, Docker, VS Code, Jupyter, Google Colab, Lovable, Zapier, base 44 
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📫 Let's Connect!
+I'm always open to discussing new projects, innovative ideas, or collaboration opportunities!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Email:** bolomusa40@gmail.com or musa.bolo@capacit.org.za
+- **LinkedIn:** [](https://www.linkedin.com/in/musa-bolo-033718211/)
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/25cce95c-2316-4a55-bb30-80f0ad39c9ce) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐️ Feel free to explore my projects and reach out for collaboration opportunities!
